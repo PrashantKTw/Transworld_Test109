@@ -1,0 +1,70 @@
+table.stats {
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	color: #fff;
+	width: 100%;
+	background-color: #C6DEFF;
+	border: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.stats td {
+	background-color: #FFFFFF;
+	color: #000;
+	padding: 4px;
+	text-align: center;
+	border: 1px #808080 solid;
+}
+
+table.stats td.hed {
+	padding: 4px;
+	text-align: center;
+	border-bottom: 2px #808080 solid;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+table.stats td.hed1 {
+	padding: 4px;
+	text-align: center;
+	border-bottom: 2px #808080 solid;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+table.sortable {
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 11px;
+	color: #fff;
+	width: 100%;
+	border: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table.sortable td {
+	padding: 3px;
+	text-align: center;
+	border: 1px #808080 solid;
+}
+
+table.sortable td.hed {
+	padding: 4px;
+	text-align: center;
+	border-bottom: 2px #808080 solid;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+table.sortable td.hed1 {
+	padding: 4px;
+	text-align: center;
+	border-bottom: 2px #808080 solid;
+	font-size: 12px;
+	font-weight: bold;
+}

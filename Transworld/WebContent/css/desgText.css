@@ -1,0 +1,51 @@
+.textfield_effect {
+	/*we will first set the border styles.*/
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	/*we are now going to add in the shadow image that we created earlier*/
+	background-image: url(back_field.gif);
+	background-repeat: repeat-x;
+	/*I am going to add some text formatting of my own*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	width: 200px;
+	height: 15px;
+}
+
+/*we are now going to style how the textfield will look when we
+
+hover over it and when we actually have it selected*/
+.textfield_effect:hover {
+	border-color: #64acd8;
+	border-width: 1px;
+}
+
+.textfield_effect:focus {
+	border-color: #64acd8;
+	border-width: 1px;
+}
+
+/*you may also like to add some styles for the rest of the form*/
+fieldset {
+	width: 400px;
+	height: 200px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #036399;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F5F5F5;
+}
+
+fieldset:hover {
+	border-color: #0ca0ff;
+}
+
+legend {
+	font-family: sans-serif;
+	font-size: 18px;
+	color: #097bc3;
+	font-weight: bold;
+}
